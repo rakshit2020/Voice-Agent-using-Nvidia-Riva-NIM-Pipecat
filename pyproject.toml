@@ -1,0 +1,15 @@
+[project]
+name = "pipecat-projects"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiohttp>=3.13.3",
+    "dotenv>=0.9.9",
+    "fastapi>=0.115.6,<0.116.0",
+    "onnxruntime>=1.23.2",
+    "pipecat-ai[local-smart-turn-v3,nvidia,runner,webrtc]>=0.0.98",
+    "websocket>=0.2.1",
+    "websockets>=15.0.1",
+]
