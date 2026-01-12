@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rakshits Voice Assistant | MCP with NIM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Left Panel - Voice Agent -->
+        <div class="agent-panel">
+            <div class="agent-header">
+                <h1>Rakshits Voice Assistant</h1>
+                <span class="status-badge" id="statusBadge">Disconnected</span>
+            </div>
+
+            <!-- Voice Orb Animation -->
+            <div class="orb-container">
+                <div class="orb" id="voiceOrb">
+                    <div class="orb-inner"></div>
+                    <div class="orb-ring ring-1"></div>
+                    <div class="orb-ring ring-2"></div>
+                    <div class="orb-ring ring-3"></div>
+                </div>
+                <p class="orb-status" id="orbStatus">Click connect to start</p>
+            </div>
+
+            <!-- Controls -->
+            <div class="controls">
+                <button class="btn-connect" id="connectBtn">
+                    <span class="btn-icon">🎤</span>
+                    <span class="btn-text">Connect</span>
+                </button>
+
+                <div class="control-row">
+                    <button class="control-btn" id="muteBtn" disabled>
+                        <span class="icon">🔊</span>
+                        <span class="label">Mute</span>
+                    </button>
+
+                    <div class="volume-control">
+                        <span class="icon">🔈</span>
+                        <input type="range" id="volumeSlider" min="0" max="100" value="80" disabled>
+                        <span class="volume-value" id="volumeValue">80%</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Info -->
+            <div class="info-box">
+                <p><strong>Capabilities:</strong></p>
+                <ul>
+                    <li>📁 File Operations (read, create, delete)</li>
+                    <li>🔍 Web Search</li>
+                    <li>💬 Natural Conversation</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Right Panel - Conversation -->
+        <div class="conversation-panel">
+            <div class="conversation-header">
+                <h2>Conversation</h2>
+                <button class="clear-btn" id="clearBtn">Clear</button>
+            </div>
+
+            <div class="conversation-container" id="conversationContainer">
+                <div class="welcome-message">
+                    <p>👋 Welcome! Connect to start talking with the voice agent.</p>
+                    <p class="hint">The agent can search the web, manage files, and have natural conversations.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
