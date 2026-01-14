@@ -1,4 +1,4 @@
-# Ultra Low Latency Voice Agent
+# Ultra Low Latency Voice Agent using Nvidia Riva, NIM and Pipecat
 
 An ultra-low latency voice assistant built with **Pipecat** using **NVIDIA Riva** and **NVIDIA NIM** models. This everyday AI assistant helps you manage your project directory, create documentation, search the web, and handle file operations all through natural voice conversation.
 
