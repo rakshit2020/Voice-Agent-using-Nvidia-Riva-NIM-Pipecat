@@ -6,22 +6,22 @@ The agent features a custom interactive web interface and leverages **MCP (Model
 
 ---
 
-## 🎬 Demo
+##  Demo
 
 > **[Demo Video Coming Soon]**  
 > *Insert your demo video link or embed here*
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
-> **[Block Diagram]**  
+> 
 > <img width="2752" height="1536" alt="VoiceAgent" src="https://github.com/user-attachments/assets/197b3da1-fdb2-4a5f-981b-95dbe0d72130" />
 
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### 1. Clone the Repository
 
@@ -53,7 +53,7 @@ Get your API keys:
 
 ---
 
-## 🚀 Running the Voice Agent
+##  Running the Voice Agent
 
 ### 1. Start the Voice Agent Backend
 
@@ -84,7 +84,7 @@ Click **Connect** and start talking to your voice assistant!
 
 ---
 
-## 💬 What You Can Ask
+##  What You Can Ask
 
 - "Search the web for the latest NVIDIA announcements and save them to a file"
 - "List all files in the current directory"
