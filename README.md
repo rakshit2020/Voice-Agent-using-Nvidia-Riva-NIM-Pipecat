@@ -1,6 +1,6 @@
 # Ultra Low Latency Voice Agent
 
-An ultra-low latency voice assistant built with **Pipecat** using **NVIDIA Riva** and **NVIDIA NIM** models. This everyday AI assistant helps you manage your project directory, create documentation, search the web, and handle file operations—all through natural voice conversation.
+An ultra-low latency voice assistant built with **Pipecat** using **NVIDIA Riva** and **NVIDIA NIM** models. This everyday AI assistant helps you manage your project directory, create documentation, search the web, and handle file operations all through natural voice conversation.
 
 The agent features a custom interactive web interface and leverages **MCP (Model Context Protocol)** tools for seamless file system access and Google Search integration via Serper API.
 
@@ -16,7 +16,8 @@ The agent features a custom interactive web interface and leverages **MCP (Model
 ## 🏗️ Architecture
 
 > **[Block Diagram]**  
-> *Insert your block diagram image here*
+> <img width="2752" height="1536" alt="VoiceAgent" src="https://github.com/user-attachments/assets/197b3da1-fdb2-4a5f-981b-95dbe0d72130" />
+
 
 ---
 
