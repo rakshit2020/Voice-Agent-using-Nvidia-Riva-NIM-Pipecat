@@ -8,7 +8,6 @@ The agent features a custom interactive web interface and leverages **MCP (Model
 
 ##  Demo
 
-> ## Demo Video
 [▶️ Click to watch the demo](VoiceAgent_comp.mp4)
 
 
