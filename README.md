@@ -9,7 +9,7 @@ The agent features a custom interactive web interface and leverages **MCP (Model
 ##  Demo
 
 > **[Demo Video Coming Soon]**  
-> *Insert your demo video link or embed here*
+> 
 
 ---
 
