@@ -193,7 +193,7 @@ async def run_bot(transport: BaseTransport, runner_args: RunnerArguments):
     tts = NvidiaTTSService(api_key=os.getenv("NVIDIA_API_KEY"))
     llm = NvidiaLLMService(
         api_key=os.getenv("NVIDIA_API_KEY"),
-        model="mistralai/devstral-2-123b-instruct-2512",
+        model="nvidia/nemotron-3-nano-30b-a3b",
         params=NvidiaLLMService.InputParams(temperature=0.0),
     )
 
